@@ -1,0 +1,27 @@
+# Licenser
+
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
+
+![GitHub repo size](https://img.shields.io/github/repo-size/alexpdev/osslicenser)
+![GitHub contributors](https://img.shields.io/github/contributors/alexpdev/osslicenser)
+![GitHub stars](https://img.shields.io/github/stars/alexpdev/osslicenser)
+![GitHub forks](https://img.shields.io/github/forks/alexpdev/osslicenser)
+![Twitter Follow](https://img.shields.io/badge/osslicenser)
+
+osslicenser is a tiny CLI tool that allows generates various OSS `LICENSE` on demand command.
+
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Python 3
+
+## Installing osslicenser
+
+## Using osslicenser
+
+To use osslicenser, follow these steps:
+
+## Contact
+
+If you want to contact me you can reach me through the issues tab on github

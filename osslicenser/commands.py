@@ -1,7 +1,7 @@
 import sys
 import os
 import shutil
-from licensor.markdown_converter import convert, convert_folder
+from osslicenser.markdown_converter import convert, convert_folder
 
 def convert_command(args):
     path = args.path
