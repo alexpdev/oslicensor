@@ -21,6 +21,14 @@ import shutil
 from osslicenser.markdown_converter import convert, convert_folder
 
 def convert_command(args):
+    """
+    Execute command to convert text file to markdown.
+
+    Parameters
+    ----------
+    args : dict
+        CLI argsuments.
+    """
     path = args.path
     if os.path.isfile(path):
         convert(path)
@@ -28,11 +36,22 @@ def convert_command(args):
         convert_folder(path)
 
 def get_command(args):
+    """
+    Execute command to get a specific text license.
+
+    Parameters
+    ----------
+    args : dict
+        CLI arguments.
+    """
     lic = args.license
     path = os.path.join(ASSETS, lic + ".txt")
     shutil.copy(path, './LICENSE')
 
 def choose_command(*_):
+    """
+    Execute command to choose which.
+    """
     titles = []
     codes = {}
     counter = 1

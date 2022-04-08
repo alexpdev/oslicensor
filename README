@@ -8,7 +8,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/alexpdev/osslicenser)
 ![Twitter Follow](https://img.shields.io/badge/osslicenser)
 
-osslicenser is a tiny CLI tool that allows generates various OSS `LICENSE` on demand command.
+osslicenser is a tiny CLI tool that allows generates various OSS `LICENSE` on demand.
 
 ## Prerequisites
 
@@ -18,9 +18,27 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing osslicenser
 
+`pip install osslicenser`
+
 ## Using osslicenser
 
 To use osslicenser, follow these steps:
+
+- Use the `-l` or `--list` command line option to list available licenses.
+
+- Use the `get` subcommand followed by the abbreviated license code found entering the `-l` option.
+
+- Use the `choose` subcommand to select a particular license from a list of choices
+
+Examples:
+
+```bash
+> osslicenser --list
+
+> osslicenser get bsd1
+
+> osslicenser choose
+```
 
 ## Contact
 
