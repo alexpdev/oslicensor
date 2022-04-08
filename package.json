@@ -1,0 +1,17 @@
+{
+  "name": "licensor",
+  "version": "1.0.0",
+  "description": "OSS License CLI generator.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexpdev/licensor.git"
+  },
+  "keywords": [],
+  "author": "alexpdev",
+  "author_email": "alexpdev@protonmail.com",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/alexpdev/licensor/issues"
+  },
+  "homepage": "https://github.com/alexpdev/licensor#readme"
+}
