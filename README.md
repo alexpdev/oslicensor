@@ -1,7 +1,8 @@
-# Licenser
+# OSSlicenser
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
+[OSSlicenser](https://github.com/alexpdev/osslicenser/blob/osslicenser.ong)
 ![GitHub repo size](https://img.shields.io/github/repo-size/alexpdev/osslicenser)
 ![GitHub contributors](https://img.shields.io/github/contributors/alexpdev/osslicenser)
 ![GitHub stars](https://img.shields.io/github/stars/alexpdev/osslicenser)
