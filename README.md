@@ -2,7 +2,7 @@
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
-[OSSlicenser](https://github.com/alexpdev/osslicenser/blob/master/osslicenser.png?raw=true)
+[!OSSlicenser](https://github.com/alexpdev/osslicenser/blob/master/osslicenser.png?raw=true)
 -------
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/alexpdev/osslicenser)
