@@ -1,17 +1,12 @@
-# ~~~ProjectName~~~ ChangeLog
+# OSSLicenser ChangeLog
 
-## Version
+## Version [0.1.1]
+
+- added licenses
+- added markdown converter
 
 -------------------------
 
 ## Version [0.1.0]
 
-### Added
-
-- initial commit
-
-### Fixed
-
-### Removed
-
--------------------------
+- initial commit.
