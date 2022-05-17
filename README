@@ -1,27 +1,25 @@
-# OSSlicenser
+# OSlicensor
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 
-![OSSlicenser](https://github.com/alexpdev/osslicenser/blob/master/osslicenser.png?raw=true)
-
 -------
 
-![GitHub repo size](https://img.shields.io/github/repo-size/alexpdev/osslicenser)
+![GitHub repo size](https://img.shields.io/github/repo-size/alexpdev/oslicensor)
 
-OSSlicenser is a tiny CLI tool that allows generates various OSS `LICENSE` on demand.
+OSLicensor is a tiny CLI tool that allows generates various OSS `LICENSE` on demand.
 
 ## Prerequisites
 
 - Python 3
 - pip
 
-## Installing osslicenser
+## Installing oslicensor
 
-`pip install osslicenser`
+`pip install OSLicensor`
 
-## Using osslicenser
+## Using OSLicensor
 
-To use osslicenser, follow these steps:
+To use OSLicensor, follow these steps:
 
 - Use the `-l` or `--list` command line option to list available licenses.
 
@@ -32,11 +30,11 @@ To use osslicenser, follow these steps:
 Examples:
 
 ```bash
-> osslicenser --list
+> oslicensor --list
 
-> osslicenser get bsd1
+> oslicensor get bsd1
 
-> osslicenser choose
+> oslicensor choose
 ```
 
 ## Contact

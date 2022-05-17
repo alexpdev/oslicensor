@@ -6,7 +6,7 @@ include setup.cfg
 include Makefile
 include .pylintrc
 include LICENSE
-recursive_include osslicenser/assets *.txt
+recursive_include oslicensor/assets *.txt
 
 recursive-exclude * __pycache__
 recursive-exclude * *.py[co]

@@ -1,6 +1,6 @@
 {
-  "name": "osslicenser",
-  "version": "0.1.2",
+  "name": "oslicensor",
+  "version": "0.1.0",
   "description": "OSS License CLI generator.",
   "repository": {
     "type": "git",
