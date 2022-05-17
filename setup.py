@@ -5,11 +5,11 @@ from setuptools import setup, find_packages
 def get_info():
     project = os.path.dirname(__file__)
     info = json.load(open(os.path.join(project, 'package.json')))
-    with open(os.path.join(project, 'README'), 'rt', encoding='utf-8') as readme:
+    with open(os.path.join(project, 'README.md'), 'rt', encoding='utf-8') as readme:
         info['long-description'] = readme.read()
     with open(os.path.join(project, 'LICENSE'), 'rt', encoding='utf-8') as lic:
         info['license'] = lic.read()
-    info['package'] = os.path.join(project, 'licensor')
+    info['package'] = os.path.join(project, 'oslicensor')
     return info
 
 INFO = get_info()
@@ -26,10 +26,10 @@ setup(
     license=INFO.get('license'),
     url=INFO.get('url'),
     keywords=INFO.get('keywords'),
-    entry_points={'console_scripts': ["osslicenser = osslicenser.__main__:main"]},
-    packages=find_packages(include=['osslicenser']),
+    entry_points={'console_scripts': ["oslicensor = oslicensor.__main__:main"]},
+    packages=find_packages(include=['oslicensor']),
     package_data={
-        'osslicenser': ['assets/*.txt']
+        'oslicensor': ['assets/*.txt']
     },
     zip_safe=False
 )
